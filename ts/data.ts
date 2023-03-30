@@ -37,6 +37,7 @@ data.push({
     imageUrl: "https://img.freepik.com/fotos-gratis/caminho-de-madeira-bonito-indo-as-arvores-coloridas-de-tirar-o-folego-em-uma-floresta_181624-5840.jpg?w=1380&t=st=1680198883~exp=1680199483~hmac=cf55aa1c1c1f8b0659c545d85067eee21750235943d18580146f4364faa29f42"
 });
 
+// Adding the data to the HTML
 const postCard = (aux : PostsData) => `
   <div class='post'>
     <button type='button' class='post-btn' id='${aux.id}'>

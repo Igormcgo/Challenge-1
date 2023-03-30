@@ -1,8 +1,22 @@
 html {
-    background-color: #ffffff
+    background-color: black;
 }
 
-h1 {
+body > h1{
     text-align: center;
     font-size: xxx-large;
+    color: white;
+}
+
+button img {
+    height: 750px;
+    width: 1000px;
+}
+
+button {
+    background-color: #cde6ca;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: block;
 }
