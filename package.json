@@ -1,0 +1,17 @@
+{
+  "name": "wx-understand-ts",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "watch": "tsc -w",
+    "server": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1",
+    "tsc-esm": "^1.0.4",
+    "typescript": "^5.0.2"
+  }
+}
