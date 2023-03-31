@@ -20,3 +20,40 @@ button {
     margin-bottom: 30px;
     display: block;
 }
+
+.comments {
+    background-color: white;
+    border: 2px solid black;
+}
+
+.imageClass{
+    height: 750px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #cde6ca;
+    border: 2px solid black;
+}
+
+.description {
+    color: black;
+    background-color: #cde6ca;
+}
+
+.postImage{
+    background-color: #cde6ca;
+    border: 2px solid black;
+}
+
+div > h1, p, h2, h3{
+    text-align: center;
+}
+
+#body{
+    margin-bottom: 0;
+}
+
+.commentsh2 {
+    margin-top: 0;
+}
