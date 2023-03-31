@@ -19,6 +19,7 @@ button {
     margin-right: auto;
     margin-bottom: 30px;
     display: block;
+    border: 2px solid green;
 }
 
 .comments {
