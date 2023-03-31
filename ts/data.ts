@@ -53,20 +53,20 @@ const postCard = (aux : PostsData) => `
 const postsList = document.getElementById('posts-list');
 
 if (postsList) {
-    let postsDataToHTML = ''
-  
-    for (const postData of data) {  
-      postsDataToHTML += postCard(postData)
-    }
-  
-    postsList.innerHTML = postsDataToHTML
-  
-    const postButtons = document.querySelectorAll('.post-btn');
-    postButtons.forEach((button) => {
-      button.addEventListener('click', function () {
-        console.log(+this.id);
-      });
-    });
+  let postsDataToHTML = ''
+
+  for (const postData of data) {  
+    postsDataToHTML += postCard(postData)
   }
+
+  postsList.innerHTML = postsDataToHTML
+
+  const postButtons = document.querySelectorAll('.post-btn');
+  postButtons.forEach((button) => {
+    button.addEventListener('click', function () {
+      console.log(+this.id);
+    });
+  });
+}
 
 
